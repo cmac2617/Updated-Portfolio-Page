@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>weather</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <h1>Weather Dashboard</h1>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <input id="searchField">
+        <button id="searchButton" class="city">Search</button>
+        
+        <div>
+          <b>Search History</b>
+          <div id = "searchHistory"></div>
+        </div>
+
+      </div>
+      <div class="col-sm-8">
+        <div class="current" id="today">
+          <div class="row">
+            <div class="col-md-8" id = "dayCurrentInfo">
+              
+            </div>
+            <div class="col-md-4">
+              <img src="images/initial.PNG" id="dayCurrentCondition" alt="Weather">
+            </div>
+
+          </div>
+        </div>
+        <div class="five-day row">
+          <div id="dayOne" class="card col-sm-2" style="width: 18rem;">
+            <img src="images/initial.PNG" id="dayOneCondition" class="card-img-top day" alt="Weather">
+            <div id="dayOneInfo" class="card-body">
+
+
+            </div>
+          </div>
+          <div id="dayTwo" class="card col-sm-2" style="width: 18rem;">
+            <img src="images/initial.PNG" id="dayTwoCondition" class="card-img-top" alt="Weather">
+
+            <div id="dayTwoInfo" class="card-body">
+
+            </div>
+          </div>
+          <div id="dayThree" class="card col-sm-2" style="width: 18rem;">
+            <img src="images/initial.PNG" id="dayThreeCondition" class="card-img-top" alt="Weather">
+            <div id="dayThreeInfo" class="card-body">
+            </div>
+          </div>
+          <div id="dayFour" class="card col-sm-2" style="width: 18rem;">
+            <img src="images/initial.PNG" id="dayFourCondition" class="card-img-top" alt="Weather">
+            <div id="dayFourInfo" class="card-body">
+
+            </div>
+          </div>
+          <div id="dayFive" class="card col-sm-2" style="width: 18rem;">
+            <img src="images/initial.PNG" id="dayFiveCondition" class="card-img-top" alt="Weather">
+            <div id="dayFiveInfo" class="card-body">
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

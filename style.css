@@ -1,0 +1,60 @@
+/* Navbar */
+.navbar-expand-lg {
+    background-color: rgb(6, 26, 56);
+}
+.navbar-light .navbar-brand {
+    color: white;
+    }
+.navbar-light .navbar-brand:focus {
+    color: white;
+    }
+#navbarSupportedContent .nav-link {
+        color: white;
+    }
+.navbar-toggler-icon {
+        color: white;
+        background-color: white;
+} 
+/* Navbar End */
+
+/* Main */
+body {
+    background-image: url("images/bg.jpg");
+}
+h1 {
+    color: white;
+}
+#mainPic {
+float: left;
+margin-right: 15px;
+}
+#para {
+    background-image: url("images/bgfoc.jpg");
+    margin-top: 30px;
+}
+p {
+    color: white;
+}
+.pf-pic {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+label {
+    color: white;
+}
+.btn-primary {
+    background-color: rgb(6, 26, 56);
+    border-color: white;
+    margin-bottom: 10px;
+}
+
+/* Main End */
+
+/* Sticky Footer */
+.footer {
+    background-color: rgb(6, 26, 56);
+}
+h2 {
+    color: white;
+}
+/* Sticky Footer End */
